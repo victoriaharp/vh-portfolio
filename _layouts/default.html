@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+        <title>Document 1</title>
+
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+        
+        <link href="/assets/css/style.css" rel="stylesheet">
+    </head>
+
+    <body class="font-sans bg-grey">
+
+        {{ content }}
+
+        <footer class="px-5p my-5p md:flex grid grid-cols-2 gap-8 uppercase text-sm">
+            <div class="">
+                <p>Lorem Ipsum</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dolore ducimus dolores.</p>
+            </div>
+            <div>
+                <p>Lorem Ipsum</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dolore ducimus dolores.</p>
+            </div>
+
+            <div class="shrink-0 md:pl-[15%] sm:text-right col-start-2">
+                <label for="email" class="block">Subscribe to our newsletter</label>
+                <input type="email" id="email" name="email" required class="text-black border border-black w-full mt-3">
+                <button type="submit" class="block ml-auto border text-white bg-black border-black hover:text-black hover:bg-white hover:border-black transition px-4 py-1 tracking-widest uppercase">Subscribe</button>
+            </div>
+        </footer>
+    </body>
+</html>
