@@ -475,6 +475,9 @@ video {
 .min-w-\[50vw\] {
   min-width: 50vw;
 }
+.min-w-\[75\] {
+  min-width: 75;
+}
 .max-w-\[400px\] {
   max-width: 400px;
 }
