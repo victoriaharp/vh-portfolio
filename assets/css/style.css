@@ -478,6 +478,9 @@ video {
 .min-w-\[75\] {
   min-width: 75;
 }
+.min-w-\[75vw\] {
+  min-width: 75vw;
+}
 .max-w-\[400px\] {
   max-width: 400px;
 }
@@ -704,6 +707,10 @@ video {
   font-size: 1.875rem;
   line-height: 1;
 }
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
 .font-light {
   font-weight: 300;
 }
@@ -896,6 +903,15 @@ img{
 }
 
 @media (min-width: 1024px) {
+  .lg\:min-w-\[75vw\] {
+    min-width: 75vw;
+  }
+  .lg\:min-w-\[50\] {
+    min-width: 50;
+  }
+  .lg\:min-w-\[50vw\] {
+    min-width: 50vw;
+  }
   .lg\:text-5xl {
     font-size: 3rem;
     line-height: 1;
