@@ -1,0 +1,49 @@
+---
+layout: default
+portfolio:
+  - link: https://greg-english-photography.netlify.app
+    image: /images/ge-photo.png
+    client-name: Greg English Photography
+---
+<section class="flex flex-col bg-[url('/images/vh-1.jpeg')] min-h-screen bg-cover relative" style="background-position: 50% 70%;">
+    <div class="flex flex-col flex-grow space-y-4 items-center justify-center px-5">
+        <h1 class="text-white uppercase font-light text-3xl lg:text-5xl tracking-widest text-center">Portfolio</h1>
+    </div>
+
+</section>
+
+
+<section class="px-10p  py-5p">
+    <!-- featured -->
+    <h2 class="text-center uppercase font-light text-3xl lg:text-5xl tracking-widest pb-5p ">Featured Client</h2>
+    <div class="grid grid-cols-2 gap-10 items-center">
+        <a href="hover:drop-shadow-3xl">
+            <img src="/images/ssgh-mockup.png" class="aspect-square object-cover object-center">
+        </a>
+        <div>
+            <h2 class="uppercase font-light text-xl lg:text-3xl tracking-widest">The Golden Hour by Sara Schneider</h2>
+            <p>I partnered with Sara Schneider, a creative entrepreneur to build a timeless, responsive website to increase brand awareness, drive sales, and gain new clients. 
+                <br><br>
+            Sara's vision was to create a centralized location where she could showcase her photography business, her coaching business, and her brand shop. In phase one, we worked together to identify her brand's strategy, including color palette, typefaces, and images that were well suited to her desired audience. In phase two, I went to Figma to create a web design that encompassed all of the details in phase one. Once the design gained Sara's sign-off, phase three began with custom coded website development. Using HTML for structure, Tailwind CSS for stylizing, JavaScript for interactivity and animations, and Jekyll as the site generator, The Golden Hour's website was born. 
+                <br><br>
+            <a href="https://sara-schneider.com" class=" px-5 py-2 border border-black hover:bg-black hover:text-grey">The Golden Hour by Sara Schneider</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- other work -->
+    <h2 class="text-center uppercase font-light text-3xl lg:text-5xl tracking-widest py-5p">Other Projects</h2>
+
+    <div class="grid grid-cols-3 gap-5 mb-10p justify-center">
+    {% for item in page.portfolio %}
+    <a href="{{item.link}}" class="bg-white p-5 border-1 border-dark-grey">
+        <img src="{{item.image}}" alt="" class="aspect-square object-cover object-center pb-5p">
+        <h3 class="py-5p font-sans uppercase font-normal" id="text-dark-grey">{{item.client-name}}</h3>
+    </a>
+    {% endfor %}
+
+
+
+    </div>
+
+</section>
