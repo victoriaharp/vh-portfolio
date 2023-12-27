@@ -644,9 +644,6 @@ video {
 .pb-5p {
   padding-bottom: 5%;
 }
-.pt-5p {
-  padding-top: 5%;
-}
 .text-left {
   text-align: left;
 }
@@ -680,9 +677,6 @@ video {
 }
 .font-medium {
   font-weight: 500;
-}
-.font-bold {
-  font-weight: 700;
 }
 .font-normal {
   font-weight: 400;
