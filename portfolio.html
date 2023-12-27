@@ -4,6 +4,9 @@ portfolio:
   - link: https://greg-english-photography.netlify.app
     image: /images/ge-photo.png
     client-name: Greg English Photography
+  - link: https://vh-portfolio-gym.netlify.app/
+    image: /images/portfolio-gym.png
+    client-name: Portfolio Project Gym
 ---
 <section class="flex flex-col bg-[url('/images/vh-1.jpeg')] min-h-screen bg-cover relative" style="background-position: 50% 70%;">
     <div class="flex flex-col flex-grow space-y-4 items-center justify-center px-5">
@@ -36,7 +39,7 @@ portfolio:
 
     <div class="grid grid-cols-3 gap-5 mb-10p justify-center">
     {% for item in page.portfolio %}
-    <a href="{{item.link}}" class="bg-white p-5 border-1 border-dark-grey">
+    <a href="{{item.link}}" target="_blank" class="bg-white p-5 border-1 border-dark-grey">
         <img src="{{item.image}}" alt="" class="aspect-square object-cover object-center pb-5p">
         <h3 class="py-5p font-sans uppercase font-normal" id="text-dark-grey">{{item.client-name}}</h3>
     </a>
