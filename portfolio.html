@@ -14,7 +14,7 @@ portfolio:
 <section class="flex flex-col bg-[url('/images/vh-1.jpeg')] min-h-screen bg-cover relative" style="background-position: 50% 70%;">
     <div class="flex flex-col flex-grow space-y-4 items-center justify-center px-5">
         <h1 class="text-white uppercase font-light text-3xl lg:text-5xl tracking-widest text-center">Portfolio</h1>
-        <a href="/portfolio.html" class="text-white uppercase font-light text-xl text-center border-b-transparent hover:border-b hover:border-white">&#x276E; Return Home </a>
+        <a href="/" class="text-white uppercase font-light text-xl text-center border-b-transparent hover:border-b hover:border-white">&#x276E; Return Home </a>
     </div>
 
 </section>
@@ -27,7 +27,7 @@ portfolio:
         <a href="hover:drop-shadow-3xl">
             <img src="/images/ssgh-mockup.png" class="aspect-square object-cover object-center">
         </a>
-        <div class="pb-5p">
+        <div class="">
             <h2 class="uppercase font-light text-xl lg:text-3xl tracking-widest">The Golden Hour by Sara Schneider</h2>
             <p>I partnered with Sara Schneider, a creative entrepreneur to build a timeless, responsive website to increase brand awareness, drive sales, and gain new clients. 
                 <br><br>
@@ -41,7 +41,7 @@ portfolio:
     <!-- other work -->
     <h2 class="text-center uppercase font-light text-3xl lg:text-5xl tracking-widest py-5p">Other Projects</h2>
 
-    <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-5 mb-10p justify-center">
+    <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-5 justify-center">
     {% for item in page.portfolio %}
     <a href="{{item.link}}" target="_blank" class="bg-white p-5 border-1 border-dark-grey mb-5p lg:mb-0">
         <img src="{{item.image}}" alt="" class="aspect-square object-cover object-center pb-5p">
