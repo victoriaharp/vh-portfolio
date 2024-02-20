@@ -46,4 +46,10 @@ img{
     text-orientation: mixed;
     @apply rotate-180;
   }
+  .rotate-text-180-2{
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    @apply rotate-0;
+  }
+
 }

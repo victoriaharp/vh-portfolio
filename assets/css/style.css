@@ -447,6 +447,12 @@ video {
 .min-h-screen {
   min-height: 100vh;
 }
+.min-h-90 {
+  min-height: 90vh;
+}
+.min-h-\[85vh\] {
+  min-height: 85vh;
+}
 .w-full {
   width: 100%;
 }
@@ -624,6 +630,12 @@ video {
 .pb-5p {
   padding-bottom: 5%;
 }
+.pb-1 {
+  padding-bottom: 0.25rem;
+}
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
 .text-left {
   text-align: left;
 }
@@ -682,6 +694,12 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
+.rotate-text-180-2{
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    --tw-rotate: 0deg;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
 
 /* Custom CSS */
 
