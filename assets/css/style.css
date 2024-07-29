@@ -447,9 +447,6 @@ video {
 .min-h-screen {
   min-height: 100vh;
 }
-.min-h-90 {
-  min-height: 90vh;
-}
 .min-h-\[85vh\] {
   min-height: 85vh;
 }
@@ -624,17 +621,14 @@ video {
 .pb-5 {
   padding-bottom: 1.25rem;
 }
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
 .pb-0 {
   padding-bottom: 0px;
 }
 .pb-5p {
   padding-bottom: 5%;
-}
-.pb-1 {
-  padding-bottom: 0.25rem;
-}
-.pb-2 {
-  padding-bottom: 0.5rem;
 }
 .text-left {
   text-align: left;
